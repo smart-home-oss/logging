@@ -74,7 +74,7 @@ In Maven’s setting.xml file, add the following section to declare your Bintray
             </server>
     </servers>
     
-Add the the following Distribution Management section to your project’s pom.xml file to tell Maven to deploy into this package using the credentials you configured in the previous step:
+Add the following Distribution Management section to your project’s pom.xml file to tell Maven to deploy into this package using the credentials you configured in the previous step:
     
     <distributionManagement>
             <repository>

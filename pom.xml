@@ -15,6 +15,15 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-smart-home-oss-m2</id>
+            <name>smart-home-oss-m2</name>
+            <url>https://api.bintray.com/maven/smart-home-oss/m2/logging/;publish=1</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
 
         <dependency>
